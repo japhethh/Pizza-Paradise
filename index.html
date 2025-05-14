@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizza Paradise - Delicious Pizza Made with Love</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+  <!-- Header & Navigation -->
+  <header>
+    <div class="container">
+      <div class="logo">
+        <h1>Pizza Paradise</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#menu">Our Menu</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="mobile-menu-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- The hero section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Authentic Italian Pizza</h1>
+      <p>Made with fresh ingredients and traditional recipes</p>
+      <a href="#menu" class="btn">View Our Menu</a>
+    </div>
+  </section>
+
+  <!-- dito is about us -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title">About Us</h2>
+      <div class="about-content">
+        <div class="about-img">
+          <img
+            src="assets/image1.png" alt="image1">
+        </div>
+        <div class="about-text">
+          <h3>Our Story</h3>
+          <p>Founded in 2005, Pizza Paradise has been serving the community with authentic Italian pizzas made from
+            traditional family recipes passed down through generations.</p>
+          <p>Our dough is made fresh daily, and we use only the finest ingredients sourced from local farmers and
+            premium Italian imports.</p>
+          <h3>Our Mission</h3>
+          <p>At Pizza Paradise, we believe that great food brings people together. Our mission is to create a warm,
+            welcoming environment where families and friends can enjoy delicious meals and create lasting memories.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="menu">
+    <div class="container">
+      <h2 class="section-title">Featured Menu Items</h2>
+      <div class="menu-categories">
+        <span class="menu-category active" data-category="all">All</span>
+        <span class="menu-category" data-category="classic">Classic</span>
+        <span class="menu-category" data-category="specialty">Specialty</span>
+        <span class="menu-category" data-category="vegetarian">Vegetarian</span>
+      </div>
+      <div class="menu-items">
+        <!-- Classic Pizzas -->
+        <div class="menu-item classic">
+          <div class="menu-item-image">
+            <img
+              src="assets/image2.png"
+              alt="Margherita Pizza">
+          </div>
+          <div class="menu-item-info">
+            <div class="menu-item-header">
+              <h3>Margherita</h3>
+              <span class="price">$12.99</span>
+            </div>
+            <p>Fresh tomato sauce, mozzarella, and basil</p>
+          </div>
+        </div>
+
+        <div class="menu-item classic">
+          <div class="menu-item-image">
+            <img
+              src="assets/image3.png"
+              alt="Pepperoni Pizza">
+          </div>
+          <div class="menu-item-info">
+            <div class="menu-item-header">
+              <h3>Pepperoni</h3>
+              <span class="price">$14.99</span>
+            </div>
+            <p>Tomato sauce, mozzarella, and pepperoni</p>
+          </div>
+        </div>
+
+        <!-- Specialty Pizzas -->
+        <div class="menu-item specialty">
+          <div class="menu-item-image">
+            <img
+              src="assets/image4.png"
+              alt="BBQ Chicken Pizza">
+          </div>
+          <div class="menu-item-info">
+            <div class="menu-item-header">
+              <h3>BBQ Chicken</h3>
+              <span class="price">$16.99</span>
+            </div>
+            <p>BBQ sauce, grilled chicken, red onions, and cilantro</p>
+          </div>
+        </div>
+
+        <div class="menu-item specialty">
+          <div class="menu-item-image">
+            <img
+              src="assets/image5.png"
+              alt="Meat Lovers Pizza">
+          </div>
+          <div class="menu-item-info">
+            <div class="menu-item-header">
+              <h3>Meat Lovers</h3>
+              <span class="price">$18.99</span>
+            </div>
+            <p>Tomato sauce, pepperoni, sausage, bacon, and ham</p>
+          </div>
+        </div>
+
+        <!-- Vegetarian Pizzas -->
+        <div class="menu-item vegetarian">
+          <div class="menu-item-image">
+            <img
+              src="assets/image6.png"
+              alt="Veggie Supreme Pizza">
+          </div>
+          <div class="menu-item-info">
+            <div class="menu-item-header">
+              <h3>Veggie Supreme</h3>
+              <span class="price">$15.99</span>
+            </div>
+            <p>Tomato sauce, bell peppers, mushrooms, onions, and olives</p>
+          </div>
+        </div>
+
+        <div class="menu-item vegetarian">
+          <div class="menu-item-image">
+            <img
+              src="assets/image7.png"
+              alt="Four Cheese Pizza">
+          </div>
+          <div class="menu-item-info">
+            <div class="menu-item-header">
+              <h3>Four Cheese</h3>
+              <span class="price">$16.99</span>
+            </div>
+            <p>Tomato sauce, mozzarella, parmesan, gorgonzola, and ricotta</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Reviews Section -->
+  <section id="reviews" class="reviews">
+    <div class="container">
+      <h2 class="section-title">Customer Reviews</h2>
+      <div class="review-container">
+        <div class="review">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>"The best pizza I've ever had! The crust is perfect - crispy on the outside and soft on the inside. Will
+            definitely be coming back!"</p>
+          <div class="reviewer">
+            <img
+              src="assets/jonah.jpg"
+              alt="Customer 1">
+            <h4>Jonah Bernabe</h4>
+          </div>
+        </div>
+        <div class="review">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>"Amazing flavors and great service! The Meat Lovers pizza is to die for. This is now our family's go-to
+            pizza place."</p>
+          <div class="reviewer">
+            <img
+              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+              alt="Customer 2">
+            <h4>Michael Rodriguez</h4>
+          </div>
+        </div>
+        <div class="review">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <p>"The vegetarian options are fantastic! As someone who doesn't eat meat, I appreciate the variety and
+            quality of their veggie pizzas."</p>
+          <div class="reviewer">
+            <img
+              src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=761&q=80"
+              alt="Customer 3">
+            <h4>Emily Chen</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Contact Us</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="info-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h3>Our Location</h3>
+              <p>123 Pizza Street, Foodville, NY 10001</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-phone"></i>
+            <div>
+              <h3>Phone Number</h3>
+              <p>(555) 123-4567</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h3>Email Address</h3>
+              <p>info@pizzaparadise.com</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-clock"></i>
+            <div>
+              <h3>Opening Hours</h3>
+              <p>Monday - Friday: 11:00 AM - 10:00 PM</p>
+              <p>Saturday - Sunday: 12:00 PM - 11:00 PM</p>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form">
+          <h3>Send Us a Message</h3>
+          <form>
+            <div class="form-group">
+              <input type="text" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <input type="text" placeholder="Subject">
+            </div>
+            <div class="form-group">
+              <textarea placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h2>Pizza Paradise</h2>
+          <p>Delicious pizza made with love</p>
+        </div>
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#menu">Our Menu</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h3>Follow Us</h3>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-yelp"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Pizza Paradise. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
